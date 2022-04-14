@@ -1,5 +1,3 @@
-import { async } from "@firebase/util";
-import { setLogLevel } from "firebase/app";
 import { useState } from "react";
 import {
   createAuthUserWithEmailAndPassword,
