@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { CartContext } from "../../contexts/cart.context";
 
 const CheckoutItem = ({ cartItem }) => {
-  const { name, imageUrl, price, quantity, cartTotal } = cartItem;
+  const { name, imageUrl, price, quantity } = cartItem;
 
   const { clearItemFromCart, addItemToCart, removeItemFromCart } =
     useContext(CartContext);
