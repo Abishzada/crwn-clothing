@@ -1,0 +1,7 @@
+.titles {
+  border-bottom: 1px solid black;
+}
+
+.titles > span {
+  font-size: 2rem;
+}
